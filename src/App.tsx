@@ -133,7 +133,7 @@ export default function App() {
               <img 
                 src={EXPERT_DATA.heroImage} 
                 alt="Pri e Sa Schebeski" 
-                className="w-full h-auto object-cover"
+                className="w-full h-auto block"
                 referrerPolicy="no-referrer"
               />
             </div>
@@ -181,7 +181,7 @@ export default function App() {
               <img 
                 src={EXPERT_DATA.authorityImage} 
                 alt="Bastidores do atendimento" 
-                className="relative z-10 rounded-[2rem] shadow-xl w-full h-auto object-cover -rotate-3 group-hover:rotate-0 transition-transform duration-500"
+                className="relative z-10 rounded-[2rem] shadow-xl w-full h-auto block -rotate-3 group-hover:rotate-0 transition-transform duration-500"
                 referrerPolicy="no-referrer"
               />
             </div>
@@ -334,11 +334,11 @@ export default function App() {
           <SectionTitle subtitle="Nosso Dia a Dia">Atendimento Personalizado</SectionTitle>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="rounded-3xl overflow-hidden shadow-lg aspect-video md:aspect-auto">
+            <div className="rounded-3xl overflow-hidden shadow-lg">
               <img 
                 src={EXPERT_DATA.authorityImage} 
                 alt="Atendimento lúdico" 
-                className="w-full h-full object-cover"
+                className="w-full h-auto block"
                 referrerPolicy="no-referrer"
               />
             </div>
